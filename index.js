@@ -19,7 +19,7 @@ const perguntas = [
     correta: 0
   },
   {
-    pergunta: 'Qual instrumento Rodrigo Amarante toca?',
+    pergunta: 'Qual instrumento Rodrigo Amarante toca principalmente?',
     respostas: [
       'Bateria',
       'Violão',
@@ -79,7 +79,7 @@ const perguntas = [
       'Pintura',
       'Literatura',
     ],
-    correta: 2
+    correta: 0
   },
   {
     pergunta: 'Qual é o nome do primeiro álbum solo de Rodrigo Amarante?',
@@ -88,10 +88,9 @@ const perguntas = [
       'Mana',
       'Clarão',
     ],
-    correta: 2
+    correta: 0
   },
 ];
-
   
   const quiz = document.querySelector('#quiz') //seleciona o elemento 'quiz' na parte do html e torna uma constante; relacionado à tag <div>, que é usada para criar uma divisão ou contêiner genérico
   const template = document.querySelector('template')
