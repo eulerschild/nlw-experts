@@ -1,98 +1,97 @@
 //array 'perguntas' com 'pergunta' e 'resposta' como objetos
 const perguntas = [
-    { //o símbolo {} vai ser usado para separar as perguntas
-      pergunta: 'O que é JavaScript?',
-      respostas: 
-      //array de opções de respostas
-      ['Uma linguagem de programação para estilização de páginas web.',
-        'Uma linguagem de programação para criação de páginas web interativas.',
-        'Uma ferramenta de design gráfico para websites.'
-      ],
-      //a contagem começa do 0 na primeira linha
-      correta: 1
-    },
-    {
-      pergunta: 'Qual é a função do operador "===" em JavaScript?',
-      respostas: [
-        'Comparação estrita de valores e tipos.',
-        'Comparação de valores apenas, independentemente dos tipos.',
-        'Concatenação de strings.'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'O que é uma função em JavaScript?',
-      respostas: [
-        'Um tipo de dado que representa uma lista ordenada de valores.',
-        'Um conjunto de instruções que executa uma tarefa específica e pode ser reutilizado.',
-        'Uma variável global.'
-      ],
-      correta: 1
-    },
-    {
-      pergunta: 'Qual é a forma correta de declarar uma variável em JavaScript?',
-      respostas: [
-        'var myVar = 10;',
-        'variavel myVar = 10;',
-        'let myVar = 10;'
-      ],
-      correta: 2
-    },
-    {
-      pergunta: 'Como você faz um comentário de linha em JavaScript?',
-      respostas: [
-        '// Este é um comentário de linha',
-        '/* Este é um comentário de linha */',
-        '# Este é um comentário de linha'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'Qual é o método utilizado para adicionar um elemento ao final de um array em JavaScript?',
-      respostas: [
-        'push()',
-        'add()',
-        'append()'
-      ],
-      correta: 0
-    },
-    {
-      pergunta: 'O que é uma "closure" em JavaScript?',
-      respostas: [
-        'Uma função que não tem acesso ao seu escopo léxico.',
-        'Um tipo de variável global.',
-        'Uma função que tem acesso ao seu escopo léxico, mesmo após sair desse escopo.'
-      ],
-      correta: 2
-    },
-    {
-      pergunta: 'Qual é a diferença entre "null" e "undefined" em JavaScript?',
-      respostas: [
-        'São iguais em JavaScript, não há diferença.',
-        '"null" indica a ausência de valor atribuído, enquanto "undefined" indica uma variável que foi declarada, mas não recebeu valor.',
-        '"undefined" indica a ausência de valor atribuído, enquanto "null" indica uma variável que foi declarada, mas não recebeu valor.'
-      ],
-      correta: 1
-    },
-    {
-      pergunta: 'Como você seleciona um elemento de HTML usando seu ID em JavaScript?',
-      respostas: [
-        'getElementByID()',
-        'queryID()',
-        'document.getElementById()'
-      ],
-      correta: 2
-    },
-    {
-      pergunta: 'Qual é a função do método "addEventListener" em JavaScript?',
-      respostas: [
-        'Adiciona estilos CSS a um elemento HTML.',
-        'Adiciona um evento a um elemento HTML para que uma função seja executada quando o evento ocorre.',
-        'Adiciona um elemento HTML ao documento.'
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: 'Qual é a nacionalidade de Rodrigo Amarante?',
+    respostas: [
+      'Brasileira',
+      'Argentina',
+      'Mexicana',
+    ],
+    correta: 0
+  },
+  {
+    pergunta: 'Em qual banda Rodrigo Amarante foi o vocalista e guitarrista?',
+    respostas: [
+      'Los Hermanos',
+      'The Strokes',
+      'Radiohead',
+    ],
+    correta: 0
+  },
+  {
+    pergunta: 'Qual instrumento Rodrigo Amarante toca?',
+    respostas: [
+      'Bateria',
+      'Violão',
+      'Teclado',
+    ],
+    correta: 1
+  },
+  {
+    pergunta: 'Rodrigo Amarante é conhecido por sua participação na trilha sonora de qual série de TV?',
+    respostas: [
+      'Breaking Bad',
+      'Game of Thrones',
+      'Narcos',
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'Em que ano Rodrigo Amarante lançou seu álbum solo "Cavalo"?',
+    respostas: [
+      '2010',
+      '2013',
+      '2016',
+    ],
+    correta: 1
+  },
+  {
+    pergunta: 'Qual é o nome da música mais conhecida de Rodrigo Amarante?',
+    respostas: [
+      'Tuyo',
+      'Anna Julia',
+      'Last Nite',
+    ],
+    correta: 0
+  },
+  {
+    pergunta: 'Quantos álbuns de estúdio a banda Los Hermanos lançou com a participação de Rodrigo Amarante?',
+    respostas: [
+      '2',
+      '4',
+      '6',
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'Qual é o nome da série da HBO que conta com a música "Tuyo" na abertura, composta por Rodrigo Amarante?',
+    respostas: [
+      'Narcos',
+      'Westworld',
+      'True Detective',
+    ],
+    correta: 0
+  },
+  {
+    pergunta: 'Além de músico, em qual outra área artística Rodrigo Amarante atua?',
+    respostas: [
+      'Cinema',
+      'Pintura',
+      'Literatura',
+    ],
+    correta: 2
+  },
+  {
+    pergunta: 'Qual é o nome do primeiro álbum solo de Rodrigo Amarante?',
+    respostas: [
+      'Cavalo',
+      'Mana',
+      'Clarão',
+    ],
+    correta: 2
+  },
+];
+
   
   const quiz = document.querySelector('#quiz') //seleciona o elemento 'quiz' na parte do html e torna uma constante; relacionado à tag <div>, que é usada para criar uma divisão ou contêiner genérico
   const template = document.querySelector('template')
